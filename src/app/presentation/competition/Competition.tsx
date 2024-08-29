@@ -127,7 +127,6 @@ const Competition = (props: Props) => {
                             cursorColor={'#667085'}
                             textColor={'#667085'}
                             placeholderTextColor="#667085"
-                            secureTextEntry={true}
                             onTextChanged={onChangeText}
                         />
                         <TouchableOpacity style={styles.container10} onPress={onClickSearch}>
